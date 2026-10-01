@@ -1,0 +1,12 @@
+{
+  "name": "sammati-plugins",
+  "description": "Claude plugins from Sammati, India's DPDP-native consent and privacy platform.",
+  "owner": { "name": "Arborworld India Private Limited (Sammati)" },
+  "plugins": [
+    {
+      "name": "sammati-dpdp",
+      "source": "./",
+      "description": "DPDP Act readiness assessment: score, gaps and a prioritised action list, from a short assessment or your privacy notice."
+    }
+  ]
+}
