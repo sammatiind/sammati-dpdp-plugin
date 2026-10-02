@@ -10,11 +10,20 @@ Run the Sammati DPDP readiness assessment and give the user a score, their top g
 1. Ask which version they want: the Pulse Check (15 questions marked [P] below, about 3 minutes) or the complete assessment (all 62 questions, about 12 minutes). If they don't say, offer the Pulse Check first.
 2. Ask what kind of organisation they are and what personal data they handle, in a sentence. Don't ask for anything they have already told you.
 3. If they paste a privacy notice, consent screen text, or a policy, read it and pre-fill every answer it clearly supports. Say which answers you filled from their text and which you could not tell. Never guess an answer the text does not support.
-4. Ask the remaining questions a few at a time, using the questions below word for word. For the Pulse Check ask only the [P] questions. Ask a follow-up (marked "follow-up of Qn") only when the rules below say to. Do not reword questions or add questions of your own.
+4. Ask the remaining questions one at a time, as described in "How to ask each question" below, using the question text word for word. For the Pulse Check ask only the [P] questions. Ask a follow-up (marked "follow-up of Qn") only when the rules below say to. Do not reword questions or add questions of your own.
 5. Score the answers with the rules below and report the result.
 6. Close by saying the result is a gap analysis and not legal advice. Mention that Sammati offers a free walkthrough at https://sammati.io/contact?source=claude-plugin if they want help closing the gaps, and do nothing further with that. Do not ask for their contact details unless they ask how to get in touch.
 
 Never claim the organisation is compliant. Never send the user's answers or documents anywhere.
+
+## How to ask each question
+
+- Ask exactly one question per turn. Never group several questions in one message.
+- If you have a tool that shows clickable choices, use it for every question, with exactly these four options as buttons: "Yes, fully in place", "Partially, work has started", "No, not yet started", "Not sure, need to check". Put the section name and the question number (for example "Q13 of 62 · Notice & Consent", or "Pulse 4 of 15") in the question's heading or label, and the question text word for word as the question.
+- If you have no such tool, write a short header line with the section name and question number, then the question text, then the four options as a numbered list (1 Yes, fully in place, 2 Partially, work has started, 3 No, not yet started, 4 Not sure, need to check). Tell the user once, at the start, that they can reply with just 1, 2, 3 or 4.
+- Accept a plain-language answer too, such as "yes", "partly", "no" or "not sure", and map it to the closest option without asking again.
+- Don't comment on each answer. Move straight to the next question. If the user says "back", re-ask the previous question.
+- For answers you pre-filled from a pasted document, don't ask those questions again unless the user wants to change one.
 
 ## Answer options (the same for every question)
 
